@@ -2826,8 +2826,8 @@ p {
         @media (max-width: 767px) {
           .about-area .about-accordion .accordion .card .card-header a {
             font-size: 16px; } }
-        .about-area .about-accordion .accordion .card .card-header a::before {
-          content: '\ea58';
+        .about-area .about-accordion .accordion .card .card-header a::after {
+          content: '\25BD';
           font-family: 'LineIcons';
           position: absolute;
           top: 50%;
@@ -2837,8 +2837,9 @@ p {
           -ms-transform: translateY(-50%);
           -o-transform: translateY(-50%);
           transform: translateY(-50%); }
-      .about-area .about-accordion .accordion .card .card-header .collapsed::before {
-        content: '\ea5c'; }
+      .about-area .about-accordion .accordion .card .card-header .collapsed::after {
+        content: '\25C1';
+       }
     .about-area .about-accordion .accordion .card .card-body {
       padding: 20px 20px 0; }
   .about-area .about-image img {
