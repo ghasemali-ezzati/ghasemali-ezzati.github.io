@@ -1,0 +1,68 @@
+.navbar-brand h3{
+    color: white;
+}
+.navbar-area.sticky .navbar-brand h3{
+    color: #121212;
+}
+.footer-area{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#top-banner-name{
+    font-size: 25px;
+    /* color: white; */
+}
+.top-banner-container{
+    background-color: white;
+    background-image: url("../images/flag.png"); /* The image used */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    vertical-align: middle;
+}
+.navbar-area{
+    padding: 0;
+    background-color: #f4f6f7;
+    color: #121212;
+}
+
+.single-portfolio{
+    margin: 7px;
+}
+#email-address{
+    font-size: 0.9em;
+}
+#home{
+    padding-top: 90px;
+}
+.features-area{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.testimonial-area{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.portfolio-area{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pricing-area{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-area{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+    #top-banner-name{
+        font-size: 20px;
+    }
+
+    #home{
+        padding-top: 75px;
+    }
+    
+}
