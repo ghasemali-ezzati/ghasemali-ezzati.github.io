@@ -2827,7 +2827,9 @@ p {
           .about-area .about-accordion .accordion .card .card-header a {
             font-size: 16px; } }
         .about-area .about-accordion .accordion .card .card-header a::after {
-          content: '\25BD';
+          content: '-';
+          font-weight: bold;
+          font-size: 25px;
           font-family: 'LineIcons';
           position: absolute;
           top: 50%;
@@ -2838,7 +2840,9 @@ p {
           -o-transform: translateY(-50%);
           transform: translateY(-50%); }
       .about-area .about-accordion .accordion .card .card-header .collapsed::after {
-        content: '\25C1';
+        content: '+';
+        font-weight: bold;
+        font-size: 25px;
        }
     .about-area .about-accordion .accordion .card .card-body {
       padding: 20px 20px 0; }
