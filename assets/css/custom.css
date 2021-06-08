@@ -56,6 +56,39 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.sticky-note{
+    text-align: center;
+    z-index: 99;
+    padding: 54px 10px;
+    padding-left: 18px;
+    width: 150px;
+    height: 150px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-image: url("../images/iran.png"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.sticky-note-val{
+    font-size: 13px;
+    font-weight: bold;
+}
+.navbar-toggler .list{
+    position: relative;
+    top: -22px;
+    right: 40px;
+}
+.gray{
+    background-color: #f4f6f7;
+}
+.white{
+    background-color: white;
+}
 @media (max-width: 767px) {
     #top-banner-name{
         font-size: 20px;
